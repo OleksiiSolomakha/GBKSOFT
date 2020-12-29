@@ -1,1 +1,2 @@
-"# GBKSOFT" 
+"GBKSOFT" 
+technical task
