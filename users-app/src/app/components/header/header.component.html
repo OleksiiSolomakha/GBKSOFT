@@ -1,0 +1,21 @@
+<mat-toolbar>
+  <a href="https://gbksoft.com/">
+    <img src="assets/logo.svg" alt="GBKSOFT">
+  </a>
+
+  <mat-button-toggle-group appearance="legacy" name="view">
+    <mat-button-toggle routerLink="/users-list" routerLinkActive="active" value="list">List</mat-button-toggle>
+    <mat-button-toggle routerLink="/users-map" routerLinkActive="active" value="map">Map</mat-button-toggle>
+  </mat-button-toggle-group>
+
+
+  <mat-form-field appearance="legacy">
+    <mat-label>Find User</mat-label>
+    <input matInput #search name="search">
+  </mat-form-field>
+
+  <div>
+    <button mat-button routerLink="/user-profile">My profile</button>
+    <button mat-button (click)="logout()">Logout</button>
+  </div>
+</mat-toolbar>

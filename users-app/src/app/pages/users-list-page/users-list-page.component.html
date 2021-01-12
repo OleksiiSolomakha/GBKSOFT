@@ -1,0 +1,34 @@
+<app-header (searchValue)="filterUsers($event)"></app-header>
+
+<ng-container *ngIf="response$ | async as response">
+  <div class="container">
+    <mat-card *ngFor="let user of response.result">
+      <mat-card-title (click)="aboutUserInfo(user)">{{user.email}}</mat-card-title>
+      <mat-divider></mat-divider>
+      <mat-card-content>
+        <img [src]="user.image ? user.image : 'assets/default-user.png'" alt="User Avatar">
+        <mat-list>
+          <mat-list-item>
+            <div class="key">First Name</div>
+            <div class="value">{{user.firstName ? user.firstName : 'none'}}</div>
+          </mat-list-item>
+          <mat-list-item>
+            <div class="key">Last Name</div>
+            <div class="value">{{user.lastName ? user.lastName : 'none'}}</div>
+          </mat-list-item>
+          <mat-list-item>
+            <div class="key">Gender</div>
+            <div class="value">{{user.gender ? user.gender : 'none'}}</div>
+          </mat-list-item>
+        </mat-list>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <mat-paginator [length]="response._meta.pagination.totalCount"
+                 [pageSize]="response._meta.pagination.perPage"
+                 [pageIndex]="response._meta.pagination.currentPage - 1"
+                 [pageSizeOptions]="[10, 20, 50]"
+                 (page)="pageChange($event)">
+  </mat-paginator>
+</ng-container>

@@ -1,0 +1,47 @@
+<mat-card *ngIf="user$ | async as user">
+    <mat-card-title>{{user.email}}</mat-card-title>
+
+    <mat-card-content>
+      <mat-grid-list cols="2" rowHeight="20em">
+        <mat-grid-tile>
+          <div class="column">
+            <img [src]="user.image ? user.image : 'assets/default-user.png'" alt="User Avatar">
+          </div>
+        </mat-grid-tile>
+        <mat-grid-tile >
+          <div class="column">
+            <mat-list>
+              <mat-list-item>
+                <div class="key">First Name</div>
+                <div class="value">{{user.firstName ? user.firstName : 'none'}}</div>
+              </mat-list-item>
+              <mat-list-item>
+                <div class="key">Last Name</div>
+                <div class="value">{{user.lastName ? user.lastName : 'none'}}</div>
+              </mat-list-item>
+              <mat-list-item>
+                <div class="key">Gender</div>
+                <div class="value">{{user.gender ? user.gender : 'none'}}</div>
+              </mat-list-item>
+              <mat-list-item>
+                <div class="key">Country</div>
+                <div class="value">{{user.country ? user.country : 'none'}}</div>
+              </mat-list-item>
+              <mat-list-item>
+                <div class="key">City</div>
+                <div class="value">{{user.city ? user.city : 'none'}}</div>
+              </mat-list-item>
+              <mat-list-item>
+                <div class="key">Created</div>
+                <div class="value">{{user.createdAt | date}}</div>
+              </mat-list-item>
+            </mat-list>
+          </div>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-card-content>
+
+  <mat-card-actions>
+    <button mat-raised-button routerLink="/users-list">Back</button>
+  </mat-card-actions>
+</mat-card>

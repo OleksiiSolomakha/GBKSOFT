@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f09c2676-a6ad-4129-b056-ee6f7943497f" name="Default Changelist" comment="GBKSoft technical task">
+      <change afterPath="$PROJECT_DIR$/.idea/GBKSOFT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/auth/guards/auth.guard.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/auth/guards/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/auth/services/auth.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/auth/services/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/auth/services/token-interceptor.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/auth/services/token-interceptor.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/components/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/components/header/header.component.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/components/header/header.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/components/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/components/header/header.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/interfaces/UserFull.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/interfaces/UserResponse.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/interfaces/UserShort.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/login-page/login-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/login-page/login-page.component.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/login-page/login-page.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/login-page/login-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/login-page/login-page.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/registration-page/registration-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/registration-page/registration-page.component.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/registration-page/registration-page.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/registration-page/registration-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/registration-page/registration-page.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/user-info-page/user-info-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/user-info-page/user-info-page.component.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/user-info-page/user-info-page.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/user-info-page/user-info-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/user-info-page/user-info-page.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/user-profile-page/user-profile-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/user-profile-page/user-profile-page.component.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/user-profile-page/user-profile-page.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/user-profile-page/user-profile-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/user-profile-page/user-profile-page.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/users-list-page/users-list-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/users-list-page/users-list-page.component.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/users-list-page/users-list-page.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/users-list-page/users-list-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/users-list-page/users-list-page.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/users-map-page/users-map-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/users-map-page/users-map-page.component.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/users-map-page/users-map-page.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/users-map-page/users-map-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/pages/users-map-page/users-map-page.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/services/users.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/app/services/users.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/assets/default-user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-app/src/assets/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-app/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/users-app/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/users-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/users-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/users-app/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/users-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-app/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/users-app/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-app/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/users-app/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1meswZDtkE5DsppI4r4xsy144DX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="ts.external.directory.path" value="C:\GBKSoft\GBKSOFT\users-app\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f09c2676-a6ad-4129-b056-ee6f7943497f" name="Default Changelist" comment="" />
+      <created>1609865630086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609865630086</updated>
+      <workItem from="1609865631201" duration="4358000" />
+      <workItem from="1609916420872" duration="431000" />
+      <workItem from="1609936457620" duration="8068000" />
+      <workItem from="1610189321277" duration="8729000" />
+      <workItem from="1610274417340" duration="8543000" />
+      <workItem from="1610285924123" duration="576000" />
+      <workItem from="1610286510986" duration="9615000" />
+      <workItem from="1610349896586" duration="2283000" />
+      <workItem from="1610381779841" duration="11389000" />
+      <workItem from="1610436277231" duration="4673000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="GBKSoft technical task" />
+    <option name="LAST_COMMIT_MESSAGE" value="GBKSoft technical task" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1610393318226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610393318226" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1610305911719">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610305911719" />
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1610391384118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610391384118" />
+    <state x="2505" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610285408235" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1610391100136">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610391100136" />
+    <state x="2873" y="420" key="FileChooserDialogImpl" timestamp="1610286393993">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2873" y="420" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610286393993" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1610390514458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610390514458" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1610390514457">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610390514457" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1610390514457">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610390514457" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1610390514458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610390514458" />
+    <state x="2381" y="165" key="SettingsEditor" timestamp="1610286397835">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610286397835" />
+    <state x="667" y="253" width="767" height="534" key="find.popup" timestamp="1610392941219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="767" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610392941219" />
+  </component>
+</project>
